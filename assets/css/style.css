@@ -1,4 +1,50 @@
-main nav ul li {
+/* Universal Styling */
+body {
+    background:rgb(253, 153, 240);
+  }
+  
+  a {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 24px;
+    color:navy;
+  }
+
+  /* Header Styling */
+  header {
+    margin: auto;
+  }
+  
+  header h1 {
+    width: 100%;
+    padding: 50px;
+    margin: auto;
+    color: navy;
+    font-size: 60px;
+    text-align: center;
+  }
+  /* Quick Links to Specific Spots on my Page */
+  .links {
+    display: flex;
+  }
+  
+  .links {
+    width:100%;
+    padding-top: 15px;
+    margin: auto;
+    color: navy;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+  }
+  
+  .links ul {
+    list-style-type: none;
+    margin: 0 auto;
+  }
+  
+  .links ul li {
     display: inline-block;
     margin-left: 25px;
-}
+  }
