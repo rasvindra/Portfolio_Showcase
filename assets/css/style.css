@@ -48,7 +48,7 @@ header h1 {
   margin-left: 25px;
 }
 /* Biography Styling including headshot Pic */
-#biography {
+.biography {
   display: flex;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -56,14 +56,14 @@ header h1 {
   padding: 0 5%;
   margin: 15px;
 }
-#biography h2 {
+.biography h2 {
   min-width: 15%;
   border-right: 5px solid navy;
   margin: 15px;
   text-align: right;
   padding-right: 15px;
 }
-#biography img {
+.biography img {
   padding: 15px;
 }
 
@@ -76,10 +76,11 @@ header h1 {
 }
 
 .coding_showcase h2 {
+  display: inline;
   min-width: 15%;
   border-right: 5px solid navy;
   margin: 15px;
-  text-align: right;
+  /* text-align: right; */
   padding-right: 15px;
 }
 
@@ -179,6 +180,10 @@ header h1 {
 .contact ul li {
   display: inline-block;
   margin-left: 25px;
+}
+
+footer h3 {
+  text-align: center;
 }
 
 /* Media Querys to make viewport responsive */
