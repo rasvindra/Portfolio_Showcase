@@ -8,7 +8,7 @@ a {
 }
 
 p {
-  font-size: 24px;
+  font-size: 20px;
   color: navy;
 }
 
@@ -54,6 +54,7 @@ header h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: navy;
   padding: 0 5%;
+  margin: 15px;
 }
 #biography h2 {
   min-width: 15%;
@@ -62,23 +63,101 @@ header h1 {
   text-align: right;
   padding-right: 15px;
 }
-.coding_projects {
-    display: flex;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: white;
-    background-color: black;
-    padding: 20px 5%;
+#biography img {
+  padding: 15px;
+}
+
+/* Projects Styling */
+.coding_showcase {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: navy;
+  padding: 20px 5%;
+}
+
+.coding_showcase h2 {
+  min-width: 15%;
+  border-right: 5px solid navy;
+  margin: 15px;
+  text-align: right;
+  padding-right: 15px;
+}
+
+ .coding_showcase .another {
+  min-width: 75%;
+  margin: 15px;
+}
+
+ /* .coding {
+  display: flex;
+  flex-wrap: wrap;
+}  */
+
+
+.coding .all_projects a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.coding a:hover div {
+  opacity: .6;
+  background-color:rgb(254, 254, 254);
   }
-  
-  .coding_projects h2 {
-    min-width: 15%;
-    border-right: 5px solid white;
-    margin: 15px;
-    text-align: right;
-    padding-right: 15px;
-  }
-  
-  .coding_projects .coding {
-    min-width: 75%;
-    margin: 15px;
-  }
+
+/* .coding div {
+  background-color:rgb(253, 153, 240); ;
+  height: 40%;
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+} */
+
+.coding li {
+   list-style-type: none;
+}
+
+.all_projects li {
+  width: 40%;
+  height: 300px;
+  margin: 5px;
+  list-style-type: none;
+}
+.projects .all_projects.project1 {
+  height: 300px;
+  width: 825px;
+  align-self: center;
+}
+
+.all_projects div {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: bold;
+    margin-bottom: 30px; 
+}
+
+/* Contact Styling */
+.contact {
+  display: flex;
+}
+
+.contact {
+  width: 100%;
+  padding-top: 15px;
+  margin: auto;
+  color: navy;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.contact ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.contact ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
