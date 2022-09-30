@@ -88,10 +88,10 @@ header h1 {
   margin: 15px;
 }
 
- /* .coding {
-  display: flex;
+ .coding {
+  /* display: flex; */
   flex-wrap: wrap;
-}  */
+} 
 
 
 .coding .all_projects a {
@@ -106,13 +106,12 @@ header h1 {
   background-color:rgb(254, 254, 254);
   }
 
-/* .coding div {
-  background-color:rgb(253, 153, 240); ;
+ .coding div {
   height: 40%;
   font-size: 20px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 20px;
-} */
+} 
 
 .coding li {
    list-style-type: none;
