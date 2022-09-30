@@ -82,7 +82,7 @@ header h1 {
   min-width: 15%;
   border-right: 5px solid navy;
   margin: 15px;
-  /* text-align: right; */
+  text-align: right;
   padding-right: 15px;
 }
 
@@ -138,7 +138,7 @@ header h1 {
     margin-bottom: 30px; 
 }
 
-.coding_showcase .another .project1 a {
+.project1 a {
   background-image: url(/.images/puppy-kissing-kitten.jpg);
 }
 .coding_showcase .another .project2 a {
@@ -184,9 +184,16 @@ header h1 {
   margin-left: 25px;
 }
 
+
 footer h3 {
+  display: inline-flex;
+  font-size: 35px;
   text-align: center;
-  margin-bottom: 40px;
+  margin: 40px;
+}
+
+footer img {
+  max-height: 100px;
 }
 
 /* Media Querys to make viewport responsive */
