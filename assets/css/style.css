@@ -89,7 +89,6 @@ header h1 {
 }
 
  .coding {
-  /* display: flex; */
   flex-wrap: wrap;
 } 
 
@@ -109,7 +108,6 @@ header h1 {
  .coding div {
   height: 40%;
   font-size: 20px;
-  /* position: absolute; */
   bottom: 20px;
 } 
 
@@ -137,18 +135,40 @@ header h1 {
     margin-bottom: 30px; 
 }
 
-/* Contact Styling */
-.contact {
-  display: flex;
+.coding_showcase .another .project1 a {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg);
+}
+.coding_showcase .another .project2 a {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg);
+}
+.coding_showcase .another .project3 a {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg);
+}
+.coding_showcase .another .project4 a {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg);
+}
+.coding_showcase .another .project5 a {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg);
 }
 
+/* Contact Styling */
+
 .contact {
+  display: flex;
   width: 100%;
   padding-top: 15px;
   margin: auto;
   color: navy;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+}
+
+.contact h2 {
+  min-width: 15%;
+  border-right: 5px solid navy;
+  margin: 15px;
+  text-align: right;
+  padding-right: 15px;
 }
 
 .contact ul {
