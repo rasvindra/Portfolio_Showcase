@@ -16,6 +16,7 @@ p {
 header {
   display:inline-flex;
   margin: auto;
+  width:100%;
 }
 
 header h1 {
@@ -194,7 +195,9 @@ header img {
 }
 
 footer {
-  display: inline-flex;
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
   padding-top: 20px;
 }
 
