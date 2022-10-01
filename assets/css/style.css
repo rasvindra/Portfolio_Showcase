@@ -77,13 +77,15 @@ header img {
 /* Projects Styling */
 .coding_showcase {
   display: flex;
+  /* flex-wrap: wrap; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: navy;
   padding: 20px 5%;
 }
 
 .coding_showcase h2 {
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
   min-width: 15%;
   border-right: 5px solid navy;
   margin: 15px;
@@ -143,20 +145,20 @@ header img {
     margin-bottom: 30px; 
 }
 
-.project1 a {
-  background-image: url(/.images/puppy-kissing-kitten.jpg);
+.project1 {
+  background-image: url("../images/pink-clouds.jpg");
 }
-.coding_showcase .another .project2 a {
-  background-image: url(./images/matrix-background.jpg);
+.project2 a {
+  background-image: url("../images/purple-clouds.jpg");
 }
-.coding_showcase .another .project3 a {
-  background-image: url(./images/to-do.jpg);
+.project3 a {
+  background-image: url("../images/pink-clouds.jpg");
 }
-.coding_showcase .another .project4 a {
-  background-image: url();
+.project4 a {
+  background-image: url("../images/purple-clouds.jpg");
 }
-.coding_showcase .another .project5 a {
-  background-image: url();
+.project5 a {
+  background-image: url("../images/pink-clouds.jpg");
 }
 
 /* Contact Styling */
@@ -169,6 +171,7 @@ header img {
   color: navy;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  border-bottom: 20px;
 }
 
 .contact h2 {
@@ -177,6 +180,7 @@ header img {
   margin: 15px;
   text-align: right;
   padding-right: 15px;
+  font-size: 24px;
 }
 
 .contact ul {
@@ -189,10 +193,14 @@ header img {
   margin-left: 25px;
 }
 
+footer {
+  display: inline-flex;
+  padding-top: 20px;
+}
 
 footer h3 {
   display: inline-flex;
-  font-size: 35px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -201,12 +209,44 @@ footer img {
 }
 
 /* Media Querys to make viewport responsive */
-/* @media (max-width: 700px) {
-  .links li {
-     flex-direction: column; 
+
+@media (max-width: 992px) {
+  .biography {
+     display:block;
+     text-align: center;
+  }
+  .biography h2 {
+    text-align: center;
+    border-bottom: 5px solid navy;
+    border-right: 0;
+
   }
 } 
 
+@media (max-width: 692px) {
+  .links ul li {
+     display:block;
+     text-align: center;
+  }
+  .coding_showcase {
+    display: block;
+  }
+  .coding_showcase h2 {
+    text-align: center;
+    border-bottom: 5px solid navy;
+    border-right: 0;
+  }
+  .contact {
+    display:block;
+  }
+  .contact h2 {
+    text-align: center;
+    border-bottom: 5px solid navy;
+    border-right: 0;
+  }
+}
+
+/* 
 @media (max-width: 700px) {
   #biography {
     flex-direction: column;
