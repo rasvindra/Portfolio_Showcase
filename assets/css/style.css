@@ -94,7 +94,7 @@ header img {
 }
 
  .coding_showcase .another {
-  min-width: 75%;
+  min-width: 80%;
   margin: 15px;
 }
 
@@ -245,30 +245,3 @@ footer img {
     border-right: 0;
   }
 }
-
-/* 
-@media (max-width: 700px) {
-  #biography {
-    flex-direction: column;
-  }
-  .biography h2 {
-    text-align: center;
-    min-width: 90%;
-    margin: 15px auto;
-    border-right: none;
-    border-bottom: 5px solid white;
-  }
-  .coding_showcase {
-    flex-direction: column;
-  }
-  .coding_showcase h2 {
-    text-align: center;
-    min-width: 90%;
-    margin: 15px auto;
-    border-right: none;
-    border-bottom: 5px solid white;
-  }
-  .all_projects div{
-    width:90%;
-  }
-} */
