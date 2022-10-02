@@ -132,11 +132,6 @@ header img {
   margin: 5px;
   list-style-type: none;
 }
-.projects .all_projects.project1 {
-  height: 300px;
-  width: 825px;
-  align-self: center;
-}
 
 .all_projects div {
     width: 30%;
@@ -144,6 +139,12 @@ header img {
     margin-left: 15px;
     font-style: bold;
     margin-bottom: 30px; 
+}
+
+.projects .all_projects .project1 {
+  height: 300px;
+  width: 825px;
+  align-self: center;
 }
 
 .project1 {
