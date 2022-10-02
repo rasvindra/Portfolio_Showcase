@@ -78,7 +78,6 @@ header img {
 /* Projects Styling */
 .coding_showcase {
   display: flex;
-  /* flex-wrap: wrap; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: navy;
   padding: 20px 5%;
@@ -111,10 +110,11 @@ header img {
   position: relative;
 }
 
-.coding a:hover div {
-  opacity: .6;
+/* Hover needs coorection- not working */
+/* .coding a:hover div {
+  opacity: .2;
   background-color:rgb(254, 254, 254);
-  }
+  } */
 
  .coding div {
   height: 40%;
@@ -130,7 +130,6 @@ header img {
   width: 40%;
   height: 300px;
   margin: 5px;
-  list-style-type: none;
 }
 
 .all_projects div {
@@ -144,7 +143,6 @@ header img {
 .projects .all_projects .project1 {
   height: 300px;
   width: 825px;
-  align-self: center;
 }
 
 .project1 {
@@ -197,7 +195,6 @@ header img {
 
 footer {
   display: flex;
-  /* width: 100%; */
   justify-content: space-between;
   padding-top: 20px;
 }
@@ -223,7 +220,9 @@ footer img {
     text-align: center;
     border-bottom: 5px solid navy;
     border-right: 0;
-
+  }
+  .coding_showcase div {
+    width: 80%;
   }
 } 
 
@@ -239,6 +238,9 @@ footer img {
     text-align: center;
     border-bottom: 5px solid navy;
     border-right: 0;
+  }
+  .coding_showcase div {
+    width: 80%;
   }
   .contact {
     display:block;
