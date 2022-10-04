@@ -82,82 +82,57 @@ header img {
   color: navy;
   padding: 20px 5%;
 }
-
 .coding_showcase h2 {
   display: flex;
-  flex-wrap: wrap;
   min-width: 15%;
   border-right: 5px solid navy;
   margin: 15px;
   text-align: right;
   padding-right: 15px;
 }
-
  .coding_showcase .another {
-  min-width: 80%;
+  min-width: 50%;
   margin: 15px;
 }
-
  .coding {
+  display: flex;
   flex-wrap: wrap;
 } 
-
-
+.coding a:hover {
+  opacity: .6;
+}
+.coding li {
+   list-style-type: none;
+}
+.all_projects div {
+    width: 40%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+/* .projects .all_projects .project1 {
+  height: 300px;
+  width: 100%;
+} */
 .coding .all_projects a {
   display: inline-block;
   width: 100%;
   height: 100%;
   position: relative;
 }
-
-/* Hover needs coorection- not working */
-/* .coding a:hover div {
-  opacity: .2;
-  background-color:rgb(254, 254, 254);
-  } */
-
- .coding div {
-  height: 40%;
-  font-size: 20px;
-  bottom: 20px;
-} 
-
-.coding li {
-   list-style-type: none;
-}
-
-.all_projects li {
-  width: 40%;
-  height: 300px;
-  margin: 5px;
-}
-
-.all_projects div {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    font-style: bold;
-    margin-bottom: 30px; 
-}
-
-.projects .all_projects .project1 {
-  height: 300px;
-  width: 825px;
-}
-
 .project1 {
   background-image: url("../images/pink-clouds.jpg");
 }
-.project2 a {
+.project2 {
   background-image: url("../images/purple-clouds.jpg");
 }
-.project3 a {
+.project3 {
   background-image: url("../images/pink-clouds.jpg");
 }
-.project4 a {
+.project4 {
   background-image: url("../images/purple-clouds.jpg");
 }
-.project5 a {
+.project5 {
   background-image: url("../images/pink-clouds.jpg");
 }
 
@@ -173,7 +148,6 @@ header img {
   font-size: 20px;
   border-bottom: 20px;
 }
-
 .contact h2 {
   min-width: 15%;
   border-right: 5px solid navy;
@@ -182,29 +156,24 @@ header img {
   padding-right: 15px;
   font-size: 24px;
 }
-
 .contact ul {
   list-style-type: none;
   margin: 0 auto;
 }
-
 .contact ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
 footer {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
 }
-
 footer h3 {
   display: inline-flex;
   font-size: 20px;
   text-align: center;
 }
-
 footer img {
   max-height: 75px;
 }
@@ -220,9 +189,6 @@ footer img {
     text-align: center;
     border-bottom: 5px solid navy;
     border-right: 0;
-  }
-  .coding_showcase div {
-    width: 80%;
   }
 } 
 
