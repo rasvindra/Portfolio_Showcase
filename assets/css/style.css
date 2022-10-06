@@ -187,7 +187,9 @@ footer img {
   }
   .coding_showcase {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .coding_showcase h2 {
     text-align: center;
