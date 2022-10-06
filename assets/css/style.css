@@ -2,11 +2,9 @@
 body {
   background: rgb(253, 153, 240);
 }
-
 a {
   font-size: 24px;
 }
-
 p {
   font-size: 20px;
   color: navy;
@@ -18,7 +16,6 @@ header {
   margin: auto;
   width:100%;
 }
-
 header h1 {
   padding: 50px;
   margin: auto;
@@ -26,15 +23,14 @@ header h1 {
   font-size: 60px;
   text-align: center;
 }
-
 header img {
   max-height: 75px;
 }
+
 /* Nav Bar Styling */
 .links {
   display: flex;
 }
-
 .links {
   width: 100%;
   padding-top: 15px;
@@ -43,16 +39,15 @@ header img {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
 .links ul {
   list-style-type: none;
   margin: 0 auto;
 }
-
 .links ul li {
   display: inline-block;
   margin-left: 25px;
 }
+
 /* Biography Styling including headshot Pic */
 .biography {
   display: flex;
@@ -83,16 +78,11 @@ header img {
   padding: 20px 5%;
 }
 .coding_showcase h2 {
-  display: flex;
   min-width: 15%;
   border-right: 5px solid navy;
   margin: 15px;
   text-align: right;
   padding-right: 15px;
-}
- .coding_showcase .another {
-  min-width: 50%;
-  margin: 15px;
 }
  .coding {
   display: flex;
@@ -110,10 +100,6 @@ header img {
     margin-left: 15px;
     margin-bottom: 30px;
 }
-/* .projects .all_projects .project1 {
-  height: 300px;
-  width: 100%;
-} */
 .coding .all_projects a {
   display: inline-block;
   width: 100%;
@@ -122,22 +108,32 @@ header img {
 }
 .project1 {
   background-image: url("../images/pink-clouds.jpg");
+  background-size:cover;
+  flex-basis: 100%;
+  height: 175px;
 }
 .project2 {
   background-image: url("../images/purple-clouds.jpg");
+  background-size:cover;
+  flex-basis: 50%;
 }
 .project3 {
   background-image: url("../images/pink-clouds.jpg");
+  background-size:cover;
+  flex-basis: 50%;
 }
 .project4 {
   background-image: url("../images/purple-clouds.jpg");
+  background-size:cover;
+  flex-basis: 50%;
 }
 .project5 {
   background-image: url("../images/pink-clouds.jpg");
+  background-size:cover;
+  flex-basis: 50%;
 }
 
 /* Contact Styling */
-
 .contact {
   display: flex;
   width: 100%;
@@ -178,9 +174,8 @@ footer img {
   max-height: 75px;
 }
 
-/* Media Querys to make viewport responsive */
-
-@media (max-width: 992px) {
+/* Media Querys to make viewport responsive. mainly at tablet size*/
+@media (max-width: 895px) {
   .biography {
      display:block;
      text-align: center;
@@ -190,15 +185,9 @@ footer img {
     border-bottom: 5px solid navy;
     border-right: 0;
   }
-} 
-
-@media (max-width: 692px) {
-  .links ul li {
-     display:block;
-     text-align: center;
-  }
   .coding_showcase {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .coding_showcase h2 {
     text-align: center;
@@ -207,6 +196,7 @@ footer img {
   }
   .coding_showcase div {
     width: 80%;
+    text-align: center;
   }
   .contact {
     display:block;
